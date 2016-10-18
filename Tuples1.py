@@ -22,6 +22,7 @@ for line in handle:
 
 print freqDict
 
+# Create a list so that a tuple shows (freq, email).
 freqLst = list()
 
 for key, val in freqDict.items():
